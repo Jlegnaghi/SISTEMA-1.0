@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SISTEMA_1._0.TESTE
+namespace SISTEMA_1._0.UI_Principal
 {
-    public partial class teste : Form
+    public partial class frmTi : Form
     {
-        public teste()
+        public frmTi()
         {
             InitializeComponent();
         }
