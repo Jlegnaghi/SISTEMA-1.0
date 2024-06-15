@@ -59,6 +59,7 @@ namespace SISTEMA_1._0
                         // Aqui você pode abrir o próimo formulário ou realizar outras operações após o login
                         frmTi form = new frmTi();
                         form.Show();
+                        this.Hide();
                     }
                     else
                     {

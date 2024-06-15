@@ -31,7 +31,6 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuArquivo = new System.Windows.Forms.ToolStripMenuItem();
             this.menuFuncionario = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuFuncionarioNovo = new System.Windows.Forms.ToolStripMenuItem();
             this.menuFuncionarioAlterar = new System.Windows.Forms.ToolStripMenuItem();
             this.menuFuncionarioExcluir = new System.Windows.Forms.ToolStripMenuItem();
             this.menuProfessor = new System.Windows.Forms.ToolStripMenuItem();
@@ -44,6 +43,7 @@
             this.menuUsuarioExcluir = new System.Windows.Forms.ToolStripMenuItem();
             this.opçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuFuncionarioNovo = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,19 +72,12 @@
             // menuFuncionario
             // 
             this.menuFuncionario.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuFuncionarioNovo,
             this.menuFuncionarioAlterar,
-            this.menuFuncionarioExcluir});
+            this.menuFuncionarioExcluir,
+            this.menuFuncionarioNovo});
             this.menuFuncionario.Name = "menuFuncionario";
             this.menuFuncionario.Size = new System.Drawing.Size(180, 22);
             this.menuFuncionario.Text = "Funcionario";
-            // 
-            // menuFuncionarioNovo
-            // 
-            this.menuFuncionarioNovo.Name = "menuFuncionarioNovo";
-            this.menuFuncionarioNovo.Size = new System.Drawing.Size(180, 22);
-            this.menuFuncionarioNovo.Text = "Novo";
-            this.menuFuncionarioNovo.Click += new System.EventHandler(this.menuFuncionarioNovo_Click);
             // 
             // menuFuncionarioAlterar
             // 
@@ -174,6 +167,13 @@
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
             this.sairToolStripMenuItem.Text = "Sair";
             // 
+            // menuFuncionarioNovo
+            // 
+            this.menuFuncionarioNovo.Name = "menuFuncionarioNovo";
+            this.menuFuncionarioNovo.Size = new System.Drawing.Size(180, 22);
+            this.menuFuncionarioNovo.Text = "Novo";
+            this.menuFuncionarioNovo.Click += new System.EventHandler(this.menuFuncionarioNovo_Click);
+            // 
             // frmTi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -196,7 +196,6 @@
         private System.Windows.Forms.ToolStripMenuItem menuArquivo;
         private System.Windows.Forms.ToolStripMenuItem menuFuncionario;
         private System.Windows.Forms.ToolStripMenuItem menuProfessor;
-        private System.Windows.Forms.ToolStripMenuItem menuFuncionarioNovo;
         private System.Windows.Forms.ToolStripMenuItem menuFuncionarioAlterar;
         private System.Windows.Forms.ToolStripMenuItem menuFuncionarioExcluir;
         private System.Windows.Forms.ToolStripMenuItem menuProfessorNovo;
@@ -208,5 +207,6 @@
         private System.Windows.Forms.ToolStripMenuItem menuUsuarioNovo;
         private System.Windows.Forms.ToolStripMenuItem menuUsuarioAlterar;
         private System.Windows.Forms.ToolStripMenuItem menuUsuarioExcluir;
+        private System.Windows.Forms.ToolStripMenuItem menuFuncionarioNovo;
     }
 }

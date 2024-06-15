@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SISTEMA_1._0.UI_Funcionario
 {
-    public partial class Form1 : Form
+    public partial class frmAddFuncionario : Form
     {
-        public Form1()
+        public frmAddFuncionario()
         {
             InitializeComponent();
         }

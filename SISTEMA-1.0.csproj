@@ -117,7 +117,7 @@
     <Compile Include="UI_Funcionario\frmAddFuncionario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI_Funcionario\Form1.Designer.cs">
+    <Compile Include="UI_Funcionario\frmAddFuncionario.Designer.cs">
       <DependentUpon>frmAddFuncionario.cs</DependentUpon>
     </Compile>
     <Compile Include="UI_Funcionario\frmAltFuncionario.cs">

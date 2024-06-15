@@ -1,6 +1,6 @@
 ﻿namespace SISTEMA_1._0.UI_Funcionario
 {
-    partial class Form1
+    partial class frmAddFuncionario
     {
         /// <summary>
         /// Required designer variable.
