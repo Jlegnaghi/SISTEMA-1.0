@@ -1,5 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
 using SISTEMA_1._0.DAL;
+using SISTEMA_1._0.UI_Principal;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -55,7 +56,9 @@ namespace SISTEMA_1._0
                     if (count > 0)
                     {
                         MessageBox.Show("Login realizado com sucesso!");
-                        // Aqui você pode abrir o próximo formulário ou realizar outras operações após o login
+                        // Aqui você pode abrir o próimo formulário ou realizar outras operações após o login
+                        frmTi form = new frmTi();
+                        form.Show();
                     }
                     else
                     {
