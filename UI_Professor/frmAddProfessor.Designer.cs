@@ -1,6 +1,6 @@
-﻿namespace SISTEMA_1._0.UI_Principal
+﻿namespace SISTEMA_1._0.UI_Professor
 {
-    partial class frmPrincipal
+    partial class frmAddProfessor
     {
         /// <summary>
         /// Required designer variable.
@@ -28,16 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // frmPrincipal
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(596, 390);
-            this.Name = "frmPrincipal";
-            this.ResumeLayout(false);
-
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "frmAddProfessor";
         }
 
         #endregion

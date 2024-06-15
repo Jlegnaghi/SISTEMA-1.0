@@ -114,6 +114,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAL\DAL_Conn.cs" />
+    <Compile Include="UI_Funcionario\frmAddFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Funcionario\Form1.Designer.cs">
+      <DependentUpon>frmAddFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Funcionario\frmAltFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Funcionario\frmAltFuncionario.Designer.cs">
+      <DependentUpon>frmAltFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Funcionario\frmDelFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Funcionario\frmDelFuncionario.Designer.cs">
+      <DependentUpon>frmDelFuncionario.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI_Login\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,23 +140,41 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UI_Principal\frmAddUsuario.cs">
+    <Compile Include="UI_Professor\frmAddProfessor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI_Principal\frmAddUsuario.Designer.cs">
+    <Compile Include="UI_Professor\frmAddProfessor.Designer.cs">
+      <DependentUpon>frmAddProfessor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Professor\frmAltProfessor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Professor\frmAltProfessor.Designer.cs">
+      <DependentUpon>frmAltProfessor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Professor\frmDelProfessor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Professor\frmDelProfessor.Designer.cs">
+      <DependentUpon>frmDelProfessor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Usuario\frmAddUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Usuario\frmAddUsuario.Designer.cs">
       <DependentUpon>frmAddUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI_Principal\frmCracha.cs">
+    <Compile Include="UI_Cracha\frmCracha.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI_Principal\frmCracha.Designer.cs">
+    <Compile Include="UI_Cracha\frmCracha.Designer.cs">
       <DependentUpon>frmCracha.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI_Principal\frmPrincipal.cs">
+    <Compile Include="UI_Principal\frmUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI_Principal\frmPrincipal.Designer.cs">
-      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    <Compile Include="UI_Principal\frmUser.Designer.cs">
+      <DependentUpon>frmUser.cs</DependentUpon>
     </Compile>
     <Compile Include="UI_Principal\frmTi.cs">
       <SubType>Form</SubType>
@@ -146,10 +182,17 @@
     <Compile Include="UI_Principal\frmTi.Designer.cs">
       <DependentUpon>frmTi.cs</DependentUpon>
     </Compile>
-    <Compile Include="UsuariosDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>UsuariosDataSet.xsd</DependentUpon>
+    <Compile Include="UI_Usuario\frmAltUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Usuario\frmAltUsuario.Designer.cs">
+      <DependentUpon>frmAltUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Usuario\frmDelUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Usuario\frmDelUsuario.Designer.cs">
+      <DependentUpon>frmDelUsuario.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="UI_Login\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
@@ -163,14 +206,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UI_Principal\frmAddUsuario.resx">
-      <DependentUpon>frmAddUsuario.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UI_Principal\frmCracha.resx">
+    <EmbeddedResource Include="UI_Cracha\frmCracha.resx">
       <DependentUpon>frmCracha.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI_Principal\frmPrincipal.resx">
-      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    <EmbeddedResource Include="UI_Principal\frmUser.resx">
+      <DependentUpon>frmUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI_Principal\frmTi.resx">
       <DependentUpon>frmTi.cs</DependentUpon>
@@ -185,29 +225,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="UsuariosDataSet.xsc">
-      <DependentUpon>UsuariosDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="UsuariosDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>UsuariosDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="UsuariosDataSet.xss">
-      <DependentUpon>UsuariosDataSet.xsd</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Usuarios.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Usuarios_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>Usuarios.mdf</DependentUpon>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.8">

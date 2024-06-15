@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SISTEMA_1._0.UI_Principal
+namespace SISTEMA_1._0.UI_Professor
 {
-    public partial class frmPrincipal : Form
+    public partial class frmAltProfessor : Form
     {
-        public frmPrincipal()
+        public frmAltProfessor()
         {
             InitializeComponent();
         }
