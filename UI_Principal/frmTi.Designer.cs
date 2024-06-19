@@ -33,6 +33,7 @@
             this.menuFuncionario = new System.Windows.Forms.ToolStripMenuItem();
             this.menuFuncionarioAlterar = new System.Windows.Forms.ToolStripMenuItem();
             this.menuFuncionarioExcluir = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuFuncionarioNovo = new System.Windows.Forms.ToolStripMenuItem();
             this.menuProfessor = new System.Windows.Forms.ToolStripMenuItem();
             this.menuProfessorNovo = new System.Windows.Forms.ToolStripMenuItem();
             this.menuProfessorAlterar = new System.Windows.Forms.ToolStripMenuItem();
@@ -43,7 +44,7 @@
             this.menuUsuarioExcluir = new System.Windows.Forms.ToolStripMenuItem();
             this.opçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuFuncionarioNovo = new System.Windows.Forms.ToolStripMenuItem();
+            this.gestaoTIToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -82,16 +83,23 @@
             // menuFuncionarioAlterar
             // 
             this.menuFuncionarioAlterar.Name = "menuFuncionarioAlterar";
-            this.menuFuncionarioAlterar.Size = new System.Drawing.Size(180, 22);
+            this.menuFuncionarioAlterar.Size = new System.Drawing.Size(109, 22);
             this.menuFuncionarioAlterar.Text = "Alterar";
             this.menuFuncionarioAlterar.Click += new System.EventHandler(this.menuFuncionarioAlterar_Click);
             // 
             // menuFuncionarioExcluir
             // 
             this.menuFuncionarioExcluir.Name = "menuFuncionarioExcluir";
-            this.menuFuncionarioExcluir.Size = new System.Drawing.Size(180, 22);
+            this.menuFuncionarioExcluir.Size = new System.Drawing.Size(109, 22);
             this.menuFuncionarioExcluir.Text = "Excluir";
             this.menuFuncionarioExcluir.Click += new System.EventHandler(this.menuFuncionarioExcluir_Click);
+            // 
+            // menuFuncionarioNovo
+            // 
+            this.menuFuncionarioNovo.Name = "menuFuncionarioNovo";
+            this.menuFuncionarioNovo.Size = new System.Drawing.Size(109, 22);
+            this.menuFuncionarioNovo.Text = "Novo";
+            this.menuFuncionarioNovo.Click += new System.EventHandler(this.menuFuncionarioNovo_Click);
             // 
             // menuProfessor
             // 
@@ -106,21 +114,21 @@
             // menuProfessorNovo
             // 
             this.menuProfessorNovo.Name = "menuProfessorNovo";
-            this.menuProfessorNovo.Size = new System.Drawing.Size(180, 22);
+            this.menuProfessorNovo.Size = new System.Drawing.Size(109, 22);
             this.menuProfessorNovo.Text = "Novo";
             this.menuProfessorNovo.Click += new System.EventHandler(this.menuProfessorNovo_Click);
             // 
             // menuProfessorAlterar
             // 
             this.menuProfessorAlterar.Name = "menuProfessorAlterar";
-            this.menuProfessorAlterar.Size = new System.Drawing.Size(180, 22);
+            this.menuProfessorAlterar.Size = new System.Drawing.Size(109, 22);
             this.menuProfessorAlterar.Text = "Alterar";
             this.menuProfessorAlterar.Click += new System.EventHandler(this.menuProfessorAlterar_Click);
             // 
             // menuProfessorExcluir
             // 
             this.menuProfessorExcluir.Name = "menuProfessorExcluir";
-            this.menuProfessorExcluir.Size = new System.Drawing.Size(180, 22);
+            this.menuProfessorExcluir.Size = new System.Drawing.Size(109, 22);
             this.menuProfessorExcluir.Text = "Excluir";
             this.menuProfessorExcluir.Click += new System.EventHandler(this.menuProfessorExcluir_Click);
             // 
@@ -137,26 +145,28 @@
             // menuUsuarioNovo
             // 
             this.menuUsuarioNovo.Name = "menuUsuarioNovo";
-            this.menuUsuarioNovo.Size = new System.Drawing.Size(180, 22);
+            this.menuUsuarioNovo.Size = new System.Drawing.Size(109, 22);
             this.menuUsuarioNovo.Text = "Novo";
             this.menuUsuarioNovo.Click += new System.EventHandler(this.menuUsuarioNovo_Click);
             // 
             // menuUsuarioAlterar
             // 
             this.menuUsuarioAlterar.Name = "menuUsuarioAlterar";
-            this.menuUsuarioAlterar.Size = new System.Drawing.Size(180, 22);
+            this.menuUsuarioAlterar.Size = new System.Drawing.Size(109, 22);
             this.menuUsuarioAlterar.Text = "Alterar";
             this.menuUsuarioAlterar.Click += new System.EventHandler(this.menuUsuarioAlterar_Click);
             // 
             // menuUsuarioExcluir
             // 
             this.menuUsuarioExcluir.Name = "menuUsuarioExcluir";
-            this.menuUsuarioExcluir.Size = new System.Drawing.Size(180, 22);
+            this.menuUsuarioExcluir.Size = new System.Drawing.Size(109, 22);
             this.menuUsuarioExcluir.Text = "Excluir";
             this.menuUsuarioExcluir.Click += new System.EventHandler(this.menuUsuarioExcluir_Click);
             // 
             // opçõesToolStripMenuItem
             // 
+            this.opçõesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.gestaoTIToolStripMenuItem});
             this.opçõesToolStripMenuItem.Name = "opçõesToolStripMenuItem";
             this.opçõesToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
             this.opçõesToolStripMenuItem.Text = "Opções";
@@ -167,12 +177,12 @@
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
             this.sairToolStripMenuItem.Text = "Sair";
             // 
-            // menuFuncionarioNovo
+            // gestaoTIToolStripMenuItem
             // 
-            this.menuFuncionarioNovo.Name = "menuFuncionarioNovo";
-            this.menuFuncionarioNovo.Size = new System.Drawing.Size(180, 22);
-            this.menuFuncionarioNovo.Text = "Novo";
-            this.menuFuncionarioNovo.Click += new System.EventHandler(this.menuFuncionarioNovo_Click);
+            this.gestaoTIToolStripMenuItem.Name = "gestaoTIToolStripMenuItem";
+            this.gestaoTIToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.gestaoTIToolStripMenuItem.Text = "Gestao TI";
+            this.gestaoTIToolStripMenuItem.Click += new System.EventHandler(this.gestaoTIToolStripMenuItem_Click);
             // 
             // frmTi
             // 
@@ -208,5 +218,6 @@
         private System.Windows.Forms.ToolStripMenuItem menuUsuarioAlterar;
         private System.Windows.Forms.ToolStripMenuItem menuUsuarioExcluir;
         private System.Windows.Forms.ToolStripMenuItem menuFuncionarioNovo;
+        private System.Windows.Forms.ToolStripMenuItem gestaoTIToolStripMenuItem;
     }
 }

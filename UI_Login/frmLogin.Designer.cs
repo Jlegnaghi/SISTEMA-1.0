@@ -44,6 +44,7 @@
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(156, 20);
             this.txtNome.TabIndex = 0;
+            this.txtNome.Text = "legnaghi";
             this.txtNome.TextChanged += new System.EventHandler(this.txtNome_TextChanged);
             // 
             // txtSenha
@@ -52,6 +53,8 @@
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(156, 20);
             this.txtSenha.TabIndex = 1;
+            this.txtSenha.Text = "super";
+            this.txtSenha.UseSystemPasswordChar = true;
             this.txtSenha.TextChanged += new System.EventHandler(this.txtSenha_TextChanged);
             // 
             // label1

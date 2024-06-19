@@ -1,6 +1,7 @@
 ﻿using SISTEMA_1._0.UI_Funcionario;
 using SISTEMA_1._0.UI_Professor;
 using SISTEMA_1._0.UI_Usuario;
+using SISTEMA_1._0.UI_Gestao_TI;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -71,6 +72,12 @@ namespace SISTEMA_1._0.UI_Principal
         private void menuUsuarioExcluir_Click(object sender, EventArgs e)
         {
             frmDelUsuario form = new frmDelUsuario();
+            form.Show();
+        }
+
+        private void gestaoTIToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmGestao form = new frmGestao();
             form.Show();
         }
     }
