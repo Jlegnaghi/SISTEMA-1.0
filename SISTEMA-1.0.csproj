@@ -206,6 +206,15 @@
     <Compile Include="UI_Usuario\frmDelUsuario.Designer.cs">
       <DependentUpon>frmDelUsuario.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UI_Funcionario\frmAddFuncionario.resx">
+      <DependentUpon>frmAddFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Funcionario\frmAltFuncionario.resx">
+      <DependentUpon>frmAltFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Funcionario\frmDelFuncionario.resx">
+      <DependentUpon>frmDelFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI_Gestao_TI\frmGestao.resx">
       <DependentUpon>frmGestao.cs</DependentUpon>
     </EmbeddedResource>
@@ -231,8 +240,23 @@
     <EmbeddedResource Include="UI_Principal\frmTi.resx">
       <DependentUpon>frmTi.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI_Professor\frmAddProfessor.resx">
+      <DependentUpon>frmAddProfessor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Professor\frmAltProfessor.resx">
+      <DependentUpon>frmAltProfessor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Professor\frmDelProfessor.resx">
+      <DependentUpon>frmDelProfessor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI_Usuario\frmAddUsuario.resx">
       <DependentUpon>frmAddUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Usuario\frmAltUsuario.resx">
+      <DependentUpon>frmAltUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Usuario\frmDelUsuario.resx">
+      <DependentUpon>frmDelUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

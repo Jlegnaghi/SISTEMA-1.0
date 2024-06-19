@@ -74,7 +74,7 @@
             // 
             // btnCriar
             // 
-            this.btnCriar.Location = new System.Drawing.Point(164, 347);
+            this.btnCriar.Location = new System.Drawing.Point(152, 329);
             this.btnCriar.Name = "btnCriar";
             this.btnCriar.Size = new System.Drawing.Size(75, 23);
             this.btnCriar.TabIndex = 0;
@@ -84,7 +84,7 @@
             // 
             // btnAlterar
             // 
-            this.btnAlterar.Location = new System.Drawing.Point(245, 347);
+            this.btnAlterar.Location = new System.Drawing.Point(233, 329);
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(75, 23);
             this.btnAlterar.TabIndex = 1;
@@ -94,7 +94,7 @@
             // 
             // btnExcluir
             // 
-            this.btnExcluir.Location = new System.Drawing.Point(326, 347);
+            this.btnExcluir.Location = new System.Drawing.Point(314, 329);
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(75, 23);
             this.btnExcluir.TabIndex = 2;
@@ -104,7 +104,7 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(407, 347);
+            this.btnCancelar.Location = new System.Drawing.Point(395, 329);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
             this.btnCancelar.TabIndex = 3;
@@ -479,7 +479,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 392);
+            this.ClientSize = new System.Drawing.Size(784, 361);
             this.Controls.Add(this.btnCodBarras);
             this.Controls.Add(this.picBoxCodigoBarras);
             this.Controls.Add(this.btnImprimirCodigoBarras);
@@ -521,6 +521,7 @@
             this.Controls.Add(this.btnAlterar);
             this.Controls.Add(this.btnCriar);
             this.Name = "frmGestao";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.picBoxGabinete)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxCodigoBarras)).EndInit();

@@ -43,8 +43,8 @@
             this.menuUsuarioAlterar = new System.Windows.Forms.ToolStripMenuItem();
             this.menuUsuarioExcluir = new System.Windows.Forms.ToolStripMenuItem();
             this.opçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gestaoTIToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,7 +56,7 @@
             this.sairToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(784, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuMain";
             // 
@@ -77,7 +77,7 @@
             this.menuFuncionarioExcluir,
             this.menuFuncionarioNovo});
             this.menuFuncionario.Name = "menuFuncionario";
-            this.menuFuncionario.Size = new System.Drawing.Size(180, 22);
+            this.menuFuncionario.Size = new System.Drawing.Size(137, 22);
             this.menuFuncionario.Text = "Funcionario";
             // 
             // menuFuncionarioAlterar
@@ -108,7 +108,7 @@
             this.menuProfessorAlterar,
             this.menuProfessorExcluir});
             this.menuProfessor.Name = "menuProfessor";
-            this.menuProfessor.Size = new System.Drawing.Size(180, 22);
+            this.menuProfessor.Size = new System.Drawing.Size(137, 22);
             this.menuProfessor.Text = "Professor";
             // 
             // menuProfessorNovo
@@ -139,7 +139,7 @@
             this.menuUsuarioAlterar,
             this.menuUsuarioExcluir});
             this.menuUsuario.Name = "menuUsuario";
-            this.menuUsuario.Size = new System.Drawing.Size(180, 22);
+            this.menuUsuario.Size = new System.Drawing.Size(137, 22);
             this.menuUsuario.Text = "Usuario";
             // 
             // menuUsuarioNovo
@@ -171,27 +171,28 @@
             this.opçõesToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
             this.opçõesToolStripMenuItem.Text = "Opções";
             // 
+            // gestaoTIToolStripMenuItem
+            // 
+            this.gestaoTIToolStripMenuItem.Name = "gestaoTIToolStripMenuItem";
+            this.gestaoTIToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.gestaoTIToolStripMenuItem.Text = "Gestao TI";
+            this.gestaoTIToolStripMenuItem.Click += new System.EventHandler(this.gestaoTIToolStripMenuItem_Click);
+            // 
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
             this.sairToolStripMenuItem.Text = "Sair";
             // 
-            // gestaoTIToolStripMenuItem
-            // 
-            this.gestaoTIToolStripMenuItem.Name = "gestaoTIToolStripMenuItem";
-            this.gestaoTIToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.gestaoTIToolStripMenuItem.Text = "Gestao TI";
-            this.gestaoTIToolStripMenuItem.Click += new System.EventHandler(this.gestaoTIToolStripMenuItem_Click);
-            // 
             // frmTi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(784, 361);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmTi";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TI";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
