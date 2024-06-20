@@ -129,7 +129,7 @@
             this.picBoxGabinete.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBoxGabinete.TabIndex = 5;
             this.picBoxGabinete.TabStop = false;
-            this.picBoxGabinete.Click += new System.EventHandler(this.picBoxGabinete_Click);
+
             // 
             // txtGabinete
             // 
@@ -137,7 +137,7 @@
             this.txtGabinete.Name = "txtGabinete";
             this.txtGabinete.Size = new System.Drawing.Size(206, 20);
             this.txtGabinete.TabIndex = 6;
-            this.txtGabinete.TextChanged += new System.EventHandler(this.txtGabinete_TextChanged);
+
             // 
             // txtPlacaMae
             // 
@@ -145,7 +145,7 @@
             this.txtPlacaMae.Name = "txtPlacaMae";
             this.txtPlacaMae.Size = new System.Drawing.Size(206, 20);
             this.txtPlacaMae.TabIndex = 8;
-            this.txtPlacaMae.TextChanged += new System.EventHandler(this.txtPlacaMae_TextChanged);
+
             // 
             // lblPlacaMae
             // 
@@ -162,7 +162,7 @@
             this.txtCPU.Name = "txtCPU";
             this.txtCPU.Size = new System.Drawing.Size(206, 20);
             this.txtCPU.TabIndex = 10;
-            this.txtCPU.TextChanged += new System.EventHandler(this.txtCPU_TextChanged);
+
             // 
             // lblCPU
             // 
@@ -179,7 +179,7 @@
             this.txtFonte.Name = "txtFonte";
             this.txtFonte.Size = new System.Drawing.Size(206, 20);
             this.txtFonte.TabIndex = 14;
-            this.txtFonte.TextChanged += new System.EventHandler(this.txtFonte_TextChanged);
+
             // 
             // lblFonte
             // 
@@ -227,7 +227,7 @@
             this.txtSetor.Name = "txtSetor";
             this.txtSetor.Size = new System.Drawing.Size(206, 20);
             this.txtSetor.TabIndex = 28;
-            this.txtSetor.TextChanged += new System.EventHandler(this.txtSetor_TextChanged);
+
             // 
             // lblSetor
             // 
@@ -244,7 +244,7 @@
             this.txtGPU.Name = "txtGPU";
             this.txtGPU.Size = new System.Drawing.Size(206, 20);
             this.txtGPU.TabIndex = 26;
-            this.txtGPU.TextChanged += new System.EventHandler(this.txtGPU_TextChanged);
+
             // 
             // lblGPU
             // 
@@ -261,7 +261,7 @@
             this.txtTeclado.Name = "txtTeclado";
             this.txtTeclado.Size = new System.Drawing.Size(206, 20);
             this.txtTeclado.TabIndex = 24;
-            this.txtTeclado.TextChanged += new System.EventHandler(this.txtTeclado_TextChanged);
+
             // 
             // lblTeclado
             // 
@@ -278,7 +278,7 @@
             this.txtMouse.Name = "txtMouse";
             this.txtMouse.Size = new System.Drawing.Size(206, 20);
             this.txtMouse.TabIndex = 22;
-            this.txtMouse.TextChanged += new System.EventHandler(this.txtMouse_TextChanged);
+
             // 
             // lblMouse
             // 
@@ -295,7 +295,7 @@
             this.txtMonitor.Name = "txtMonitor";
             this.txtMonitor.Size = new System.Drawing.Size(206, 20);
             this.txtMonitor.TabIndex = 20;
-            this.txtMonitor.TextChanged += new System.EventHandler(this.txtMonitor_TextChanged);
+
             // 
             // lblMonitor
             // 
@@ -379,7 +379,6 @@
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(98, 20);
             this.txtID.TabIndex = 37;
-            this.txtID.TextChanged += new System.EventHandler(this.txtID_TextChanged);
             // 
             // lblID
             // 

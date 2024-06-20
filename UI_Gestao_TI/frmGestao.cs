@@ -26,60 +26,6 @@ namespace SISTEMA_1._0.UI_Gestao_TI
             InitializeComponent();
         }
 
-        private void txtID_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtGabinete_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtPlacaMae_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtCPU_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtFonte_TextChanged(object sender, EventArgs e)
-        {
-
-        }        
-
-        private void txtMonitor_TextChanged(object sender, EventArgs e)
-        {
-
-        }        
-
-        private void txtMouse_TextChanged(object sender, EventArgs e)
-        {
-
-        }        
-
-        private void txtTeclado_TextChanged(object sender, EventArgs e)
-        {
-
-        }        
-
-        private void txtGPU_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtSetor_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void picBoxGabinete_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void chkHDD_CheckedChanged(object sender, EventArgs e)
         {
