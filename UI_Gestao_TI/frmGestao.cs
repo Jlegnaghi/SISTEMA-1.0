@@ -26,17 +26,7 @@ namespace SISTEMA_1._0.UI_Gestao_TI
             InitializeComponent();
         }
 
-        private void lblID_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void txtID_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblGabinete_Click(object sender, EventArgs e)
         {
 
         }
@@ -46,17 +36,7 @@ namespace SISTEMA_1._0.UI_Gestao_TI
 
         }
 
-        private void lblPlacaMae_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void txtPlacaMae_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblCPU_Click(object sender, EventArgs e)
         {
 
         }
@@ -66,57 +46,27 @@ namespace SISTEMA_1._0.UI_Gestao_TI
 
         }
 
-        private void lblFonte_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void txtFonte_TextChanged(object sender, EventArgs e)
         {
 
-        }
-
-        private void lblMonitor_Click(object sender, EventArgs e)
-        {
-
-        }
+        }        
 
         private void txtMonitor_TextChanged(object sender, EventArgs e)
         {
 
-        }
-
-        private void lblMouse_Click(object sender, EventArgs e)
-        {
-
-        }
+        }        
 
         private void txtMouse_TextChanged(object sender, EventArgs e)
         {
 
-        }
-
-        private void lblTeclado_Click(object sender, EventArgs e)
-        {
-
-        }
+        }        
 
         private void txtTeclado_TextChanged(object sender, EventArgs e)
         {
 
-        }
-
-        private void lblGPU_Click(object sender, EventArgs e)
-        {
-
-        }
+        }        
 
         private void txtGPU_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblSetor_Click(object sender, EventArgs e)
         {
 
         }
@@ -127,11 +77,6 @@ namespace SISTEMA_1._0.UI_Gestao_TI
         }
 
         private void picBoxGabinete_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblDicoRigido_Click(object sender, EventArgs e)
         {
 
         }
@@ -147,11 +92,6 @@ namespace SISTEMA_1._0.UI_Gestao_TI
         }
 
         private void cBoxTamanhoDisco_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblMemoria_Click(object sender, EventArgs e)
         {
 
         }
@@ -519,7 +459,8 @@ namespace SISTEMA_1._0.UI_Gestao_TI
         {
             using (MemoryStream ms = new MemoryStream())
             {
-                image.Save(ms, image.RawFormat);
+                // Salva a imagem em formato JPEG para evitar problemas com GDI+
+                image.Save(ms, System.Drawing.Imaging.ImageFormat.Jpeg);
                 return ms.ToArray();
             }
         }

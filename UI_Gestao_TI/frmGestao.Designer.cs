@@ -114,14 +114,13 @@
             // 
             // lblGabinete
             // 
-            this.lblGabinete.AutoSize = true;
-            this.lblGabinete.Location = new System.Drawing.Point(15, 57);
-            this.lblGabinete.Name = "lblGabinete";
-            this.lblGabinete.Size = new System.Drawing.Size(50, 13);
-            this.lblGabinete.TabIndex = 4;
-            this.lblGabinete.Text = "Gabinete";
-            this.lblGabinete.Click += new System.EventHandler(this.lblGabinete_Click);
-            // 
+           this.lblGabinete.AutoSize = true;
+           this.lblGabinete.Location = new System.Drawing.Point(15, 57);
+           this.lblGabinete.Name = "lblGabinete";
+           this.lblGabinete.Size = new System.Drawing.Size(50, 13);
+           this.lblGabinete.TabIndex = 4;
+           this.lblGabinete.Text = "Gabinete";
+           // 
             // picBoxGabinete
             // 
             this.picBoxGabinete.Location = new System.Drawing.Point(556, 25);
@@ -156,7 +155,6 @@
             this.lblPlacaMae.Size = new System.Drawing.Size(58, 13);
             this.lblPlacaMae.TabIndex = 7;
             this.lblPlacaMae.Text = "Placa Mae";
-            this.lblPlacaMae.Click += new System.EventHandler(this.lblPlacaMae_Click);
             // 
             // txtCPU
             // 
@@ -174,7 +172,6 @@
             this.lblCPU.Size = new System.Drawing.Size(29, 13);
             this.lblCPU.TabIndex = 9;
             this.lblCPU.Text = "CPU";
-            this.lblCPU.Click += new System.EventHandler(this.lblCPU_Click);
             // 
             // txtFonte
             // 
@@ -192,7 +189,6 @@
             this.lblFonte.Size = new System.Drawing.Size(34, 13);
             this.lblFonte.TabIndex = 13;
             this.lblFonte.Text = "Fonte";
-            this.lblFonte.Click += new System.EventHandler(this.lblFonte_Click);
             // 
             // lblDicoRigido
             // 
@@ -202,7 +198,6 @@
             this.lblDicoRigido.Size = new System.Drawing.Size(67, 13);
             this.lblDicoRigido.TabIndex = 15;
             this.lblDicoRigido.Text = "Disco Rigido";
-            this.lblDicoRigido.Click += new System.EventHandler(this.lblDicoRigido_Click);
             // 
             // chkHDD
             // 
@@ -242,7 +237,6 @@
             this.lblSetor.Size = new System.Drawing.Size(32, 13);
             this.lblSetor.TabIndex = 27;
             this.lblSetor.Text = "Setor";
-            this.lblSetor.Click += new System.EventHandler(this.lblSetor_Click);
             // 
             // txtGPU
             // 
@@ -260,7 +254,6 @@
             this.lblGPU.Size = new System.Drawing.Size(30, 13);
             this.lblGPU.TabIndex = 25;
             this.lblGPU.Text = "GPU";
-            this.lblGPU.Click += new System.EventHandler(this.lblGPU_Click);
             // 
             // txtTeclado
             // 
@@ -278,7 +271,6 @@
             this.lblTeclado.Size = new System.Drawing.Size(46, 13);
             this.lblTeclado.TabIndex = 23;
             this.lblTeclado.Text = "Teclado";
-            this.lblTeclado.Click += new System.EventHandler(this.lblTeclado_Click);
             // 
             // txtMouse
             // 
@@ -296,7 +288,6 @@
             this.lblMouse.Size = new System.Drawing.Size(39, 13);
             this.lblMouse.TabIndex = 21;
             this.lblMouse.Text = "Mouse";
-            this.lblMouse.Click += new System.EventHandler(this.lblMouse_Click);
             // 
             // txtMonitor
             // 
@@ -314,7 +305,6 @@
             this.lblMonitor.Size = new System.Drawing.Size(42, 13);
             this.lblMonitor.TabIndex = 19;
             this.lblMonitor.Text = "Monitor";
-            this.lblMonitor.Click += new System.EventHandler(this.lblMonitor_Click);
             // 
             // chk16Gb
             // 
@@ -346,7 +336,6 @@
             this.lblMemoria.Size = new System.Drawing.Size(47, 13);
             this.lblMemoria.TabIndex = 29;
             this.lblMemoria.Text = "Memoria";
-            this.lblMemoria.Click += new System.EventHandler(this.lblMemoria_Click);
             // 
             // chk4Gb
             // 
@@ -400,7 +389,6 @@
             this.lblID.Size = new System.Drawing.Size(76, 13);
             this.lblID.TabIndex = 36;
             this.lblID.Text = "ID / Cód Barra";
-            this.lblID.Click += new System.EventHandler(this.lblID_Click);
             // 
             // cBoxTamanhoDisco
             // 
