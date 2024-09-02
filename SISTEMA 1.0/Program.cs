@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SISTEMA_1._0.Forms;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace SISTEMA_1._0
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoginForm());
+            Application.Run(new frmLogin());
         }
     }
 }
