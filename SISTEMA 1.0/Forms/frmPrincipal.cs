@@ -15,6 +15,18 @@ namespace SISTEMA_1._0.Forms
         public frmPrincipal()
         {
             InitializeComponent();
+            //ThemeManager.ApplyTheme(this);
+        }
+
+        /*private void frmPrincipal_Activated(object sender, EventArgs e)
+        {
+            ThemeManager.ApplyTheme(this); // Atualiza o tema caso o usuário altere o tema do Windows enquanto o formulário está aberto
+        }*/
+
+        private void frmPrincipal_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // Fechar toda a aplicação
+            Application.Exit();
         }
     }
 }
